@@ -1,5 +1,8 @@
+using Microsoft.EntityFrameworkCore;
+
 namespace Core.Entities.OrderAggregate
 {
+    [Owned]
     public class ProductItemOrdered
     {
         public ProductItemOrdered()
